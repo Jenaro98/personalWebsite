@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+</style>
+<body class="w3-light-grey w3-content" style="max-width:1600px">
+
+<!-- Sidebar/menu -->
+<nav class="w3-sidebar w3-collapse w3-white w3-animate-left" style="z-index:3;width:300px;" id="mySidebar"><br>
+  <div class="w3-container">
+    <a href="#" onclick="w3_close()" class="w3-hide-large w3-right w3-jumbo w3-padding w3-hover-grey" title="close menu">
+      <i class="fa fa-remove"></i>
+    </a>
+    <img src="../imgs/profile.jpg" style="width:45%;" class="w3-round"><br><br>
+    <h4><b>PORTFOLIO</b></h4>
+  </div>
+  <div class="w3-bar-block">
+    <a href="../index.html" onclick="w3_close()" class="w3-bar-item w3-button w3-padding w3-text-teal"><i class="fa fa-th-large fa-fw w3-margin-right"></i>HOME</a> 
+    <a href="about.html" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-user fa-fw w3-margin-right"></i>ABOUT</a> 
+    <a href="../resume/resume.html" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-file fa-fw w3-margin-right"></i>RESUME</a>
+    <a href="../projects/projects.html" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-cogs fa-fw w3-margin-right"></i>PROJECTS</a>
+  </div>
+  <div class="w3-panel w3-large">
+    <a href="https://www.facebook.com/wrestle.vega"> <i class="fa fa-facebook-official w3-hover-opacity"></i></a>
+    <a href="https://github.com/Jenaro98"><i class="fa fa-github w3-hover-opacity"></i></a>
+    <a href="https://www.instagram.com/jenaro_narwhal/"><i class="fa fa-instagram w3-hover-opacity"></i></a>
+    <a href="https://www.linkedin.com/in/jenaro-vega"><i class="fa fa-linkedin w3-hover-opacity"></i></a>
+    <a href="https://www.snapchat.com/add/jenaro_98"><i class="fa fa-snapchat w3-hover-opacity"></i></a>
+    <a href="https://mobile.twitter.com/Jv_Wonders"><i class="fa fa-twitter w3-hover-opacity"></i></a>
+  </div>
+</nav>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:300px">
+
+  <!-- Header -->
+  <header id="portfolio">
+    <span class="w3-button w3-hide-large w3-xxlarge w3-hover-text-grey" onclick="w3_open()"><i class="fa fa-bars"></i></span>
+    <div class="w3-container">
+    <h1><b>My Portfolio</b></h1>
+    </div>
+  </header>
+
+  <!-- Images of Me -->
+  <div class="w3-row-padding w3-padding-16" id="about">
+    <div class="w3-col m6">
+      <img src="../imgs/profiler.jpg" alt="Me" style="width:100%">
+    </div>
+    <div class="w3-col m6">
+      <img src="../imgs/ucr.jpg" alt="Me" style="width:100%">
+    </div>
+  </div>
+
+  <div class="w3-container w3-padding-large" style="margin-bottom:32px">
+    <h4><b>About Me</b></h4>
+    <p>Just me, myself and I living life to the fullest learning all I can and helping people along the way.<br>
+        My name is <strong>Jenaro Vega Becerril</strong>. I am 22 years old and attending The University of California
+     Riverside for my Bachelors of Science in Computer Science. I am a first generation Hispanic student pursing my passion 
+     and making my family proud. I enjoy learning new concepts and putting them to practice. On my free time I watch youtube 
+     videos on learning new skills or interesting concepts. I enjoy mentoring and teaching others the knowledge I gain and try my best to make it easier to understand.
+    When I am not learning or studying I wind down by going for a run 
+     or do a workout. I am a big fan of trying new foods and learning cooking recipies that I can try. I overall enjoy being
+      proactive in my everyday life. My career goal is to work with embedded systems and new innovating technology that 
+      will help people. I believe in being a kind individual and helping others when I can.
+    </p>
+    <p>
+        Two of the many quotes I love: <br>
+        "<strong>The best and most beautiful things in the world cannot be seen or even touched - they must be felt with the heart.</strong>"
+        <i>-Helen Keller</i>
+    </p>
+    <p>
+        "<strong>I alone cannot change the world, but I can cast a stone across the water to create many ripples.</strong>"
+        <i>-Mother Teresa</i>
+    </p>
+    
+    <hr>
+    
+    <h4>Technical Skills</h4>
+    <!-- Progress bars / Skills -->
+    <p>Web Development</p>
+    <div class="w3-grey">
+      <div class="w3-container w3-dark-grey w3-padding w3-center" style="width:80%">80%</div>
+    </div>
+    <p>C++/C programming</p>
+    <div class="w3-grey">
+      <div class="w3-container w3-dark-grey w3-padding w3-center" style="width:85%">85%</div>
+    </div>
+    <p>Embedded Systems/ State Machines</p>
+    <div class="w3-grey">
+      <div class="w3-container w3-dark-grey w3-padding w3-center" style="width:80%">80%</div>
+    </div>
+    <p>English/Spanish</p>
+    <div class="w3-grey">
+      <div class="w3-container w3-dark-grey w3-padding w3-center" style="width:100%">100%</div>
+    </div>
+    <p>
+        <a href="../resume/resume.pdf" download>
+            <button class="w3-button w3-dark-grey w3-padding-large w3-margin-top w3-margin-bottom">
+                <i class="fa fa-download w3-margin-right"></i>Download Resume
+              </button>
+          </a>
+      
+    </p>
+    <hr>
+    
+    
+  
+  <!-- Footer -->
+  <footer class="w3-container w3-padding-32 w3-dark-grey">
+  <div class="w3-row-padding">
+    <div class="w3-third">
+      <h3>Updates</h3>
+      <p>This website is my portfolio and I will continue improving the website as I work on more projects and learn new skills. More additions and functionalities will be added.</p>
+    </div>
+  
+    <div class="w3-third">
+      <h3>BLOG POSTS</h3>
+      <ul class="w3-ul w3-hoverable">
+        <li class="w3-padding-16">
+          <img src="../projects/photoGallery/images/17.JPG" class="w3-left w3-margin-right" style="width:50px">
+          <span class="w3-large">Me</span><br>
+          <span>The lights.</span>
+        </li>
+        <li class="w3-padding-16">
+          <img src="../projects/photoGallery/images/13.JPG" class="w3-left w3-margin-right" style="width:50px">
+          <span class="w3-large">The Beach</span><br>
+          <span>Sunsets are mesmorizing.</span>
+        </li> 
+      </ul>
+    </div>
+
+    <div class="w3-third">
+      <h3>TAGS</h3>
+      <p>
+        <span class="w3-tag w3-black w3-margin-bottom">Programming</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">Learning</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">Embedded Systems</span>
+        <span class="w3-tag w3-grey w3-small w3-margin-bottom">First Generation</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">Projects</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">DIY</span>
+        <span class="w3-tag w3-grey w3-small w3-margin-bottom">Ideas</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">Innovation</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">Family</span>
+        <span class="w3-tag w3-grey w3-small w3-margin-bottom">Tutor</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">Art</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">Photography</span>
+        <span class="w3-tag w3-grey w3-small w3-margin-bottom">Sports</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">Running</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">Reading</span>
+      </p>
+    </div>
+
+  </div>
+  </footer>
+  
+  <div class="w3-black w3-center w3-padding-24">Thank you. Have a great day.</div>
+
+<!-- End page content -->
+</div>
+
+<script>
+// Script to open and close sidebar
+function w3_open() {
+    document.getElementById("mySidebar").style.display = "block";
+    document.getElementById("myOverlay").style.display = "block";
+}
+ 
+function w3_close() {
+    document.getElementById("mySidebar").style.display = "none";
+    document.getElementById("myOverlay").style.display = "none";
+}
+</script>
+
+</body>
+</html>
